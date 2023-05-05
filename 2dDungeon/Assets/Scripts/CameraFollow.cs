@@ -10,6 +10,7 @@ public class CameraFollow : MonoBehaviour
     private float smoothTime = 0.25f;
     private Vector3 velocity = Vector3.zero;
 
+
     private void Update()
     {
         Vector3 targetPosition = playerTransform.position + offset;
